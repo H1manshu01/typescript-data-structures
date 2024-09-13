@@ -1,0 +1,22 @@
+{
+  "name": "typescript-data-structures",
+  "version": "1.0.0",
+  "description": "A collection of data structures implemented in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/typescript-data-structures.git"
+  },
+  "keywords": ["typescript", "data structures", "linked list", "stack"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
