@@ -8,5 +8,6 @@
     "strict": true,                       // Enable strict type-checking
     "esModuleInterop": true               // Enable compatibility with ES modules
   },
-  "include": ["src/**/*"]                 // Include all TypeScript files in src
+  "include": ["src/**/*"],                // Include all TypeScript files in src
+  "exclude": ["node_modules", "**/*.test.ts"]  // Exclude all TypeScript test files
 }
