@@ -1,6 +1,6 @@
 {
   "name": "ost-typescript-data-structures",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A collection of data structures implemented in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +19,8 @@
     "typescript",
     "data structures",
     "linked list",
-    "stack"
+    "stack",
+    "Queue"
   ],
   "author": "Himanshu Sharma",
   "license": "MIT",
